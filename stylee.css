@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+}
+/* navbar */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+nav a{
+    
+    font-size: 17px;
+    color:rgb(198, 95, 112);
+    text-decoration: none;
+}
+nav a :hover{
+    color: grey;
+}
+nav img{
+    width: 170px;
+}
+nav ul img{
+    width: 25px;
+}
+#panier{
+    position: relative;
+}
+#qte{
+    position: absolute;
+    background-color: rgb(198, 95, 112);
+    color: white;
+    font-size: 11px;
+    border-radius: 20px;
+    padding: 4px 8px;
+    top: -6px;
+    left: 20px;
+}
+/* end navbar */
+/* bien */
+h1{
+    color:white;
+    display:flex ;
+    justify-content: center;
+    background-color: rgb(242, 218, 222);
+    margin: 100px;
+}
+.Bien{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+}
+#croch{
+    width: 30%;
+}
+.parag{
+    width: 40%;
+}
+.parag p{
+    color: #444;
+    font-size: 19px;
+    margin: 0px;
+}
+.parag h4{
+    font-size: 39px;
+    margin: 20px 0;
+    color:rgb(197, 51, 76)
+}
+/* end bien */
+
+/* modele */
+.produit{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    gap: 80px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content h5{
+    font-size: 17px;
+}
+/* end modele */
+
+/* card */
+.cards{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 80px;
+}
+.card{
+    width:30%;
+    height: 200px;
+    padding: 30px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(194, 163, 163);
+    border-radius: 80px;
+}
+/* end card */
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(228, 217, 219);
+}
+.footer h2{
+    color: black;
+}
+/* end footer */
+/* categorie */
+.mod{
+    width: 70%;
+    margin:0 auto ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:space-between;  
+}
+.images img{
+    width: 300px;
+    height: 300px;
+}
+.images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.images div h2{
+    font-size: 20px;
+    color:rgb(198, 95, 112) ;
+}
+.images div button{
+    background-color: rgb(192, 156, 156);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
